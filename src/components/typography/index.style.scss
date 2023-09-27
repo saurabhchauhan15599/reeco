@@ -1,0 +1,125 @@
+@import '@styles/resources';
+
+.typography--variant-h1 {
+  font-family: $Mukta;
+  font-size: $fs-36;
+  font-weight: $font-weight-700;
+  color: $color-slate-brown-1;
+  line-height: 43.2px;
+}
+
+.typography--variant-h2 {
+  font-family: $Mukta;
+  font-size: $fs-32;
+  font-weight: $font-weight-700;
+  color: $color-slate-brown-1;
+  line-height: 38.4px;
+}
+
+.typography--variant-h3 {
+  font-family: $Mukta;
+  font-size: $fs-23;
+  font-weight: $font-weight-700;
+  color: $color-slate-brown-1;
+  line-height: 34.5px;
+}
+
+.typography--variant-h4 {
+  font-family: $Mukta;
+  font-size: $fs-20;
+  font-weight: $font-weight-700;
+  color: $color-slate-brown-1;
+  line-height: 30px;
+}
+
+.typography--variant-h5 {
+  font-family: $Mukta;
+  font-size: $fs-18;
+  font-weight: $font-weight-700;
+  color: $color-slate-brown-1;
+  line-height: 21.6px;
+}
+
+.typography--variant-h6 {
+  font-family: $Mukta;
+  font-size: $fs-14;
+  font-weight: $font-weight-700;
+  color: $color-grey-7;
+  line-height: 16.8px;
+}
+
+.typography--variant-subheading1 {
+  font-family: $Mukta;
+  font-weight: $font-weight-500;
+  font-size: $fs-14;
+  color: $color-grey-6;
+  line-height: 16.8px;
+}
+
+.typography--variant-subheading2 {
+  font-family: $Mukta;
+  font-weight: $font-weight-500;
+  font-size: $fs-14;
+  color: $color-black;
+  line-height: 16.8px;
+}
+
+.typography--variant-body {
+  font-family: $Mukta;
+  font-size: $fs-18;
+  font-weight: $font-weight-400;
+  color: $color-slate-brown-1;
+  line-height: 21.6px;
+}
+
+.typography--variant-span {
+  font-family: $Mukta;
+  font-weight: $font-weight-400;
+  font-size: $fs-18;
+  color: $color-grey-6;
+  line-height: 21.6px;
+}
+
+.typography--variant-p {
+  font-family: $Mukta;
+  font-size: $fs-16;
+  font-weight: $font-weight-400;
+  color: $color-slate-brown-1;
+  line-height: 19px;
+}
+.typography--variant-ptext {
+  font-family: $Mukta;
+  font-size: $fs-16;
+  font-weight: $font-weight-400;
+  color: $elchemy-text-2;
+  line-height: 19px;
+}
+.typography--variant-pdoc {
+  font-family: $Mukta;
+  font-size: $fs-16;
+  font-weight: $font-weight-500;
+  color: $color-slate-brown-1;
+  line-height: 19px;
+}
+
+.typography--variant-label {
+  font-family: $Mukta;
+  font-size: $fs-16;
+  font-weight: $font-weight-400;
+  color: $color-grey-6;
+  line-height: 19px;
+}
+
+.typography--variant-inherit {
+  font: inherit;
+  color: inherit;
+  background-color: inherit;
+}
+
+.typography--color-primary {
+  color: #f2994a;
+}
+
+.typography--color-error {
+  color: #eb5757;
+}

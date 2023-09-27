@@ -1,0 +1,8 @@
+@import '@styles/resources';
+
+.dividerRoot {
+  box-sizing: border-box;
+  background: $color-white;
+  border: 1px solid $color-grey-2;
+  border-radius: 8px;
+}

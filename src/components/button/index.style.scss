@@ -1,0 +1,117 @@
+@import '@styles/resources';
+
+.button-root {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+  font-family: $Mukta;
+  font-weight: $font-weight-400;
+  font-size: $fs-16;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  min-width: 64px;
+  overflow: hidden;
+  gap: 8px;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.button-contained {
+  padding-inline: 10px;
+  font-family: $Mukta;
+  font-style: normal;
+  font-weight: $font-weight-500;
+  font-size: $fs-16;
+  color: $color-white;
+  background: $color-red-1;
+  border-radius: 8px;
+  cursor: pointer;
+  min-height: 42px;
+  min-width: 117px;
+  &:hover {
+    background-color: $color-red-8;
+  }
+  &:focus {
+    background-color: $color-red-1;
+    box-shadow: $box-shadow-2;
+  }
+  &:disabled {
+    background-color: $color-red-7;
+    color: $color-white;
+    cursor: not-allowed;
+  }
+}
+
+.button-outlined {
+  background-color: $color-white;
+  border: 1px solid $color-slate-brown-1;
+  border-radius: 8px;
+  font-family: $Mukta;
+  font-style: normal;
+  font-weight: $font-weight-500;
+  font-size: $fs-16;
+  color: $color-slate-brown-1;
+  height: 42px;
+  width: 117px;
+  &:hover {
+    background-color: $color-white-1;
+  }
+  &:focus {
+    box-shadow: $box-shadow-3;
+  }
+  &:disabled {
+    border: 1px solid $color-grey-2;
+    color: $color-grey-2;
+    cursor: not-allowed;
+  }
+}
+
+.button-text {
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: $fs-16;
+  color: $color-red-1;
+  &:disabled {
+    color: $color-red-7;
+    cursor: not-allowed;
+  }
+  &.dark{
+    color: $color-slate-brown-1;
+  }
+}
+
+.button-outlined-secondary {
+  height: 42px;
+  width: 117px;
+  gap: 8px;
+  border: 1px solid $color-red-1;
+  border-radius: 8px;
+  background-color: transparent;
+  font-family: $Mukta;
+  font-weight: $font-weight-500;
+  font-size: $fs-16;
+  color: $color-red-1;
+  &:hover {
+    background-color: $color-white;
+    border: 1px solid $color-red-8;
+  }
+  &:focus {
+    box-shadow: $box-shadow-2;
+  }
+  &:disabled {
+    border: 1px solid $color-red-7;
+    color: $color-red-7;
+    cursor: not-allowed;
+  }
+}
