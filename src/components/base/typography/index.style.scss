@@ -1,4 +1,4 @@
-@import '@styles/resources';
+@import "src/styles/resources";
 
 .typography--variant-h1 {
   font-family: $Mukta;
@@ -91,7 +91,7 @@
   font-family: $Mukta;
   font-size: $fs-16;
   font-weight: $font-weight-400;
-  color: $elchemy-text-2;
+  color: $text-2;
   line-height: 19px;
 }
 .typography--variant-pdoc {

@@ -1,0 +1,6 @@
+@mixin ellipses($width) {
+  width: $width;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

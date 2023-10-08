@@ -1,0 +1,17 @@
+@import "src/styles/resources.scss";
+
+.container {
+  .info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    .label {
+      color: $color-grey-6;
+    }
+    .value {
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+}
