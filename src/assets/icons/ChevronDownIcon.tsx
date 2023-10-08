@@ -1,8 +1,10 @@
-import React from 'react';
-import { SVG_COLOR_BLACK } from '../utils/svg/constant';
-import { SVGProps } from './interfaces';
+import React from "react";
+import { SVGProps } from "../../helpers/types/interface";
 
-const ChevronDownIcon: React.FC<SVGProps> = ({ color = SVG_COLOR_BLACK, ...props }) => {
+const ChevronDownIcon: React.FC<SVGProps> = ({
+  color = "#000000",
+  ...props
+}) => {
   return (
     <svg
       width="12"
