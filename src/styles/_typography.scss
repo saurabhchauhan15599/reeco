@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --Mukta: 'Mukta', sans-serif;
+
+  --fs-8: 0.5rem;
+  --fs-10: 0.625rem;
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-23: 1.4375rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-32: 2rem;
+  --fs-36: 2.25rem;
+  --fs-40: 2.5rem;
+  --fs-42: 2.625rem;
+
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+}
+
+$Mukta: var(--Mukta);
+
+$fs-8: var(--fs-8);
+$fs-10: var(--fs-10);
+$fs-12: var(--fs-12);
+$fs-14: var(--fs-14);
+$fs-16: var(--fs-16);
+$fs-18: var(--fs-18);
+$fs-20: var(--fs-20);
+$fs-23: var(--fs-23);
+$fs-24: var(--fs-24);
+$fs-28: var(--fs-28);
+$fs-32: var(--fs-32);
+$fs-36: var(--fs-36);
+$fs-40: var(--fs-40);
+$fs-42: var(--fs-42);
+
+$font-weight-100: var(--font-weight-100);
+$font-weight-200: var(--font-weight-200);
+$font-weight-300: var(--font-weight-300);
+$font-weight-400: var(--font-weight-400);
+$font-weight-500: var(--font-weight-500);
+$font-weight-600: var(--font-weight-600);
+$font-weight-700: var(--font-weight-700);
+$font-weight-800: var(--font-weight-800);
+$font-weight-900: var(--font-weight-900);
