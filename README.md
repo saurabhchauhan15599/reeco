@@ -1,2 +1,2 @@
-# moneysukh
-repo for moneysukh assignment
+# reeco
+repo for reeco assignment
